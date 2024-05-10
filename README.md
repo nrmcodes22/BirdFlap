@@ -26,5 +26,8 @@ To run the game, you'll need to have Unity installed on your computer. Follow th
 - Assets used in this project are either created by the developers or obtained from free-to-use resources with appropriate attribution.
 
 ## Actual Game
-- Soon the .exe file will be updated
+- The .exe file is uploaded in Gamefile folder.
+- You can play the game by clicking the .exe file.
+-  Unity shold be installed in your system .
+  
 
