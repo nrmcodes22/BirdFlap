@@ -28,6 +28,6 @@ To run the game, you'll need to have Unity installed on your computer. Follow th
 ## Actual Game
 - The .exe file is uploaded in Gamefile folder.
 - You can play the game by clicking the .exe file.
--  Unity shold be installed in your system .
+-  Unity should be installed in your system .
   
 
