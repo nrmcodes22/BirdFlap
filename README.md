@@ -5,9 +5,9 @@ This project is a clone of the classic Flappy Bird game developed using Unity ga
 
 ## Features 🚀
 - Simple one-touch controls: Click or tap to make the bird flap its wings and ascend.
-- Randomly generated pipes: Pipes spawn at random heights and intervals to provide a dynamic and challenging experience.
-- Scoring system: Players earn points for successfully passing through each set of pipes.
-- Game over screen: When the bird collides with a pipe or the ground, the game ends and displays the player's score along with an option to restart.
+- Randomly generated logs: Logs spawn at random heights and intervals to provide a dynamic and challenging experience.
+- Scoring system: Players earn points for successfully passing through each set of logs.
+- Game over screen: When the bird collides with a log or the ground, the game ends and displays the player's score along with an option to restart.
 
 ## Getting Started 🛠️
 To run the game, you'll need to have Unity installed on your computer. Follow these steps:
