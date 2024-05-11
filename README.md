@@ -26,5 +26,12 @@ To run the game, you'll need to have Unity installed on your computer. Follow th
 - Assets used in this project are either created by the developers or obtained from free-to-use resources with appropriate attribution.
 
 ## Actual Game
-- Soon the .exe file will be updated
+- The .exe file is uploaded in Gamefile folder.
+- You can play the game by clicking the .exe file.
+-  Unity should be installed in your system .
+  
+## Gameplay Video 📹
+You can watch a brief gameplay video below:
 
+[![Flappy Bird Gameplay](path/to/your/video_thumbnail.png)](path/to/your/gameplay_video.mp4)
+- Click the image above to watch the gameplay video.
