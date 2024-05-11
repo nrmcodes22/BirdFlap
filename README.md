@@ -31,7 +31,9 @@ To run the game, you'll need to have Unity installed on your computer. Follow th
 -  Unity should be installed in your system .
   
 ## Gameplay Video 📹
-You can watch a brief gameplay video below:
+You can watch the gameplay video below:
 
-[![Flappy Bird Gameplay](thumbnail.png)](https://drive.google.com/uc?id=1I5RJYzNe18VCdEKepS78wSsbd_V7YcQc&export=download)
-- Click the image above to watch the gameplay video.
+<video width="100%" height="auto" autoplay loop>
+  <source src="path/to/your/gameplay_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
