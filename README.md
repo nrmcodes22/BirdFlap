@@ -30,7 +30,7 @@ To run the game, you'll need to have Unity installed on your computer. Follow th
 - You can play the game by clicking the .exe file.
 -  Unity should be installed in your system .
   
-## Gameplay GIF 🎥
+## Gameplay 🎥
 You can watch the gameplay below:
 
 ![Flappy Bird Gameplay](gameplay.gif)
