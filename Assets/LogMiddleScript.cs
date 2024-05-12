@@ -6,8 +6,10 @@ public class LogMiddleScript : MonoBehaviour
 {
     // Start is called before the first frame update
     public LogicScript logic;
+    public AudioSource point;
     void Start()
     {
+        
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
@@ -18,9 +20,16 @@ public class LogMiddleScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.layer==3)
+        
+        if (collision.gameObject.layer==3)
         {
+            point.Play();
+            point.mute=false;
             logic.addScore(1);
+        }
+        else
+        {
+            point.mute=true;
         }
         
     }

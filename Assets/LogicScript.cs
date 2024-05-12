@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class LogicScript : MonoBehaviour
 {
     // Start is called before the first frame update
+
     public int playerScore;
     public Text scoreText;
     public GameObject gameOverScreen;

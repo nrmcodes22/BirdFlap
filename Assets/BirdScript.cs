@@ -8,6 +8,8 @@ public class BirdScript : MonoBehaviour
     public float flapStrength;
     public LogicScript logic;
     public bool birdIsAlive = true;
+    public AudioSource birdAudioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,15 +25,21 @@ public class BirdScript : MonoBehaviour
         }
         if(transform.position.y>17 || transform.position.y<-17)
         {
+            birdAudioSource.mute = true;
             logic.gameOver();
             birdIsAlive = false;
+            
         }
         
         
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
+        birdAudioSource.mute = true;
         logic.gameOver();
         birdIsAlive = false;
+
     }
+  
 }
