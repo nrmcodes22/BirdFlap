@@ -9,6 +9,7 @@ public class BirdScript : MonoBehaviour
     public LogicScript logic;
     public bool birdIsAlive = true;
     public AudioSource birdAudioSource;
+    public AudioSource logAudioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +36,8 @@ public class BirdScript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
+        logAudioSource.Play();
+        
         birdAudioSource.mute = true;
         logic.gameOver();
         birdIsAlive = false;
